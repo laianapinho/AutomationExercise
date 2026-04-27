@@ -1,5 +1,10 @@
-venv/
-.vscode/
+# Ignora todos os ambientes virtuais
+.venv/
+venv*/
+
+# Ignora todos os caches de Python em qualquer pasta
 **/__pycache__/
 *.py[cod]
-venvdois/
+
+# Ignora configurações do VS Code
+.vscode/
